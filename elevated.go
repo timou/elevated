@@ -2,6 +2,8 @@
 
 package elevated
 
+import "os"
+
 func IsElevated() bool {
-	return false
+	return os.Geteuid() == 0
 }

@@ -1,3 +1,3 @@
 module github.com/timou/elevated
 
-go 1.15
+go 1.14

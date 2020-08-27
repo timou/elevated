@@ -5,7 +5,7 @@ import (
 )
 
 func TestIsElevated(t *testing.T) {
-	// Test that we don't crash.
+	// The only real test is that it doesn't panic on Windows.
 	got := IsElevated()
 	_ = got
 }
